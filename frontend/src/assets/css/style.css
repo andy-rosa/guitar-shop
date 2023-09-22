@@ -3875,7 +3875,7 @@ button,
 }
 
 .input-login__button-eye {
-  top: 7px;
+  top: 8px;
   right: 17px;
   position: absolute;
 
@@ -4651,6 +4651,7 @@ button,
 
 .footer__logo-wrapper {
   display: flex;
+  gap: 60px;
   flex-direction: column;
 }
 
