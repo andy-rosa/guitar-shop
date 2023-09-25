@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@backend/config": ["config/src/index.ts"],
       "@backend/shared/app-types": ["shared/app-types/src/index.ts"],
+      "@backend/shared/guards": ["shared/guards/src/index.ts"],
       "@backend/util/util-core": ["util/util-core/src/index.ts"],
       "@backend/util/util-types": ["util/util-types/src/index.ts"]
     }

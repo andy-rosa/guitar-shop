@@ -4,8 +4,8 @@ import { AuthenticationService } from './authentication.service';
 import { UserModule } from '../user/user.module';
 import {JwtModule} from "@nestjs/jwt";
 import {ConfigService} from "@nestjs/config";
-import {getJwtOptions} from "@project/config/config-users";
-import {JwtAccessStrategy} from "@project/shared/shared-guards";
+import {JwtAccessStrategy} from "@backend/shared/guards";
+import {getJwtOptions} from "@backend/config";
 
 @Module({
   imports: [
