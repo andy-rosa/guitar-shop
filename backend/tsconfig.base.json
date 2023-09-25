@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@backend/shared/app-types": ["shared/app-types/src/index.ts"],
+      "@backend/util/util-core": ["util/util-core/src/index.ts"],
+      "@backend/util/util-types": ["util/util-types/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
